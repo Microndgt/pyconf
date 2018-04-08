@@ -2,7 +2,7 @@
 
 Configuration for Humans
 
-**Configs** is an INI/py/yml configuration parsing package, written for humans.
+**pyconf** is an INI/py/yml configuration parsing package, written for humans.
 
 Installation
 ============
