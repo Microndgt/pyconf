@@ -7,7 +7,7 @@ Configuration for Humans
 Installation
 ============
 
-Install configs with pip:
+Install pyconf with pip:
 
 ```bash
 pip install git+https://github.com/Microndgt/pyconf.git
