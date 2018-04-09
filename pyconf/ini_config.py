@@ -21,7 +21,6 @@ class IniConfig(BaseConfig):
         """Parse an INI configuration file.
 
         :param config_file: configuration file to be loaded.
-        :param silent: set to ``True`` if you want silent failure for missing files.
         """
 
         current_section = None

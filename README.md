@@ -1,6 +1,6 @@
 # pyconf
 
-Configuration for Humans
+Configuration for Humans in ***Python3***.
 
 **pyconf** is an INI/py/yml configuration parsing package, written for humans.
 
@@ -36,6 +36,16 @@ print(c['path'])
 # some_path
 ```
 
+yaml config file
+---
+
+```python
+import pyconf
+c = pyconf.load('tests/sample.yml', config_class=pyconf.YamlConfig)
+print(c['path'])
+# some_path
+```
+
 Tests
 =====
 
@@ -44,10 +54,16 @@ Run the tests with
 ```bash
 python -m tests.test_ini_configs
 python -m tests.test_py_configs
+python -m tests.test_yaml_configs
 ```
 
 History
 ===
+
+0.1.1
+---
+
+1. support the yaml config file
 
 0.1.0
 ---

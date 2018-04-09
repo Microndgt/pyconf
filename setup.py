@@ -5,7 +5,7 @@ import pyconf
 try:
     readme = open('README.md').read()
 except:
-    readme = 'pyconf: Configuration for Humans. Support ini config file, python config file'
+    readme = 'pyconf: Configuration for Humans. Support ini config file, python config file, yaml config file'
 
 setup(
     name=pyconf.__title__,

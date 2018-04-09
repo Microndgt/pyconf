@@ -16,11 +16,12 @@ Load a config file::
 """
 
 __title__ = 'pyconf'
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 __author__ = 'Kevin Du'
 __license__ = 'MIT'
 
 from .ini_config import IniConfig
 from .py_config import PyConfig
+from .yml_config import YamlConfig
 from .base_config import BaseConfig, Section
 from .api import load

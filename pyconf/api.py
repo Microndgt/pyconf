@@ -1,15 +1,16 @@
 from .ini_config import IniConfig
 from .py_config import PyConfig
+from .yml_config import YamlConfig
 
 
-support_configs = (IniConfig, PyConfig)
+support_configs = (IniConfig, PyConfig, YamlConfig)
 
 
 def load(config_file, config_class=IniConfig):
     """Constructs and returns a :class:`Config <Config>` instance.
 
     :param config_file: configuration file to be parsed
-    :param ext: configuration extension
+    :param config_class: configuration extension
 
     Usage::
 
